@@ -16,7 +16,7 @@
 }
 
 nav{
-    background-color: #232f3d;
+    background-color: rgb(35, 48, 62);
     color: #fff;
     display: flex;
     align-items: center;
@@ -42,15 +42,18 @@ nav ul li{
     margin-left: 70px;
 }
 main{
-    background: linear-gradient(#232f3d 2%, #e2466e);
+
+    background-size: cover;
+    background-image: linear-gradient( rgb(35, 48, 62, 0.95) 2%, rgb(226, 70, 109, 0.95)), url("./fundo-main.jpg");
     width: 70vw;
+  
 }
 .foto{
     position: fixed;
     height: 70%;
     left: 20vw;
     top: 20vh;
-    border: #e2466e 2px solid;
+    border: rgb(226, 70, 109) 2px solid;
     box-shadow: 0 2px 16px black;
     border-bottom-right-radius: 30px;
 
