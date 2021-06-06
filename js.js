@@ -1,10 +1,10 @@
+const resume = document.getElementById('resume')
 
-function exibir() {
-    const resume = document.getElementById('resume')
-    if(resume.style.display = 'none' ){
-        resume.style.display = 'block'
-    } else{
-        resume.style.display = 'none'
-    }
+const exibir = () => {
+    resume.style.display = 'block'
+}
+
+const fechar = () => {
+    resume.style.display = 'none'
 }
 
