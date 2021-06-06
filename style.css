@@ -60,6 +60,7 @@ h1{
     position: fixed;
     top: 40vh;
     margin-left: 7vw;
+    text-shadow: 0 2px 2px black;
 }
 h2{
     
@@ -68,9 +69,10 @@ h2{
     margin-left: 10vw;
     font-size: 2rem;
     color: #e2466e;
+    text-shadow: 0 2px 2px black;
 }
 
-p{
+.descricao{
     color: white;
     position: fixed;
     top: 57vh;
@@ -84,7 +86,7 @@ p{
     position: fixed;
     width: 50px;
     height: 30px;
-    top: 45.6vh;
+    top: 45.7vh;
     border: #e2466e solid 1px;
     border-radius: 20px;
     margin-left: 130px;
@@ -101,5 +103,26 @@ p{
     margin-left: 50px;
 
     
+
+}
+#pontinho-1{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 47.2vh;
+    background-color: #e2466e;
+    border-radius: 50%;
+    margin-left: 165px;
+}
+
+#pontinho-2{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 52.8vh;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 53px;
+    z-index: 1;
 
 }
