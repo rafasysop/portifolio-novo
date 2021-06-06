@@ -37,6 +37,7 @@ nav ul li{
     padding: 0;
     width: 100%;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 #li-resume{
     margin-left: 70px;
@@ -44,7 +45,7 @@ nav ul li{
 main{
 
     background-size: cover;
-    background-image: linear-gradient( rgb(35, 48, 62, 0.95) 2%, rgb(226, 70, 109, 0.95)), url("./fundo-main.jpg");
+    background-image: linear-gradient( rgb(35, 48, 62, 0.92) 2%, rgb(226, 70, 109, 0.92)), url("./fundo-main.jpg");
     width: 70vw;
   
 }
@@ -135,4 +136,40 @@ h2{
     margin-left: 15vw;
     color: white;
     top: 80vh;
+}
+
+#resume{
+   
+    width: 40vw;
+    height: 40vh;
+    display: none;
+    padding: 30px 20px;
+    background-color: teal;
+    position: fixed;
+    top: 14vh ;
+    right: 5vw;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+
+#resume p{
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 20px;
+}
+#resume-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#close{
+    width: 80px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 20px;
+    margin-top: -25px;
+    position: fixed;
+    right: 11vh;
+    cursor: pointer;
 }
