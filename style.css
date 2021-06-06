@@ -26,16 +26,19 @@ nav ul{
     width: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 0;
 
 }
 nav ul li{
-    margin: 10px 0 0 20px;
-
+    margin: 10px 0 0 50px;
     display: flex;
     flex-direction: column;
     padding: 0;
     width: 100%;
- 
+    font-size: 1.3rem;
+}
+#li-resume{
+    margin-left: 70px;
 }
 main{
     background: linear-gradient(#232f3d 2%, #e2466e);
@@ -56,13 +59,47 @@ h1{
     color: white;
     position: fixed;
     top: 40vh;
-    margin-left: 80px;
+    margin-left: 7vw;
 }
 h2{
-    color: white;
+    
     position: fixed;
     top: 47vh;
-    margin-left: 120px;
+    margin-left: 10vw;
     font-size: 2rem;
     color: #e2466e;
+}
+
+p{
+    color: white;
+    position: fixed;
+    top: 57vh;
+    margin-left: 15vw;
+   
+    width: 30vw;
+    
+}
+
+#span-1{
+    position: fixed;
+    width: 50px;
+    height: 30px;
+    top: 45.6vh;
+    border: #e2466e solid 1px;
+    border-radius: 20px;
+    margin-left: 130px;
+
+}
+#span-2{
+    position: fixed;
+    width: 50px;
+    height: 30px;
+    top: 51.2vh;
+    border: #e2466e solid 1px;
+    border-radius: 20px;
+    background-color: #e2466e;
+    margin-left: 50px;
+
+    
+
 }
